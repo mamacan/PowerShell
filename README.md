@@ -1,28 +1,28 @@
 # ![logo][] PowerShell
 
 Welcome to the PowerShell GitHub Community!
-[PowerShell](https://learn.microsoft.com/powershell/scripting/overview) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized
+(https://learn.microsoft.com/powershell/scripting/overview) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized
 for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models.
 It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 [logo]: https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true
 
-## Windows PowerShell vs. PowerShell Core
+# Windows PowerShell vs. PowerShell Core
 
-Although this repository started as a fork of the Windows PowerShell code base, changes made in this repository do not make their way back to Windows PowerShell 5.1 automatically.
+Although this repository started as a fork of the Windows  code base, changes made in this repository do not make their way back to Windows PowerShell 5.1 automatically.
 This also means that [issues tracked here][issues] are only for PowerShell Core 6 and higher.
 Windows PowerShell specific issues should be reported with the [Feedback Hub app][feedback-hub], by choosing "Apps > PowerShell" in category.
 
 [issues]: https://github.com/PowerShell/PowerShell/issues
 [feedback-hub]: https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332
 
-## New to PowerShell?
+# New to PowerShell?
 
 If you are new to PowerShell and would like to learn more, we recommend reviewing the [getting started][] documentation.
 
 [getting started]: https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
 
-## Get PowerShell
+# Get PowerShell
 
 You can download and install a PowerShell package for any of the following platforms.
 
@@ -163,11 +163,11 @@ There are dozens of topic specific channels on our community-driven PowerShell V
 * [IRC](https://web.libera.chat/#powershell) on Libera.Chat
 * [Slack](https://aka.ms/psslack)
 
-## Add-ons and libraries
+# Add-ons and libraries
 
 [Awesome PowerShell](https://github.com/janikvonrotz/awesome-powershell) has a great curated list of add-ons and resources.
 
-## Building the Repository
+# Building the Repository
 
 | Linux                    | Windows                    | macOS                   |
 |--------------------------|----------------------------|------------------------|
@@ -175,9 +175,9 @@ There are dozens of topic specific channels on our community-driven PowerShell V
 
 If you have any problems building, consult the developer [FAQ][].
 
-### Build status of nightly builds
+# Build status of nightly builds
 
-| Azure CI (Windows)                       | Azure CI (Linux)                               | Azure CI (macOS)                               | Code Coverage Status     | CodeFactor Grade         |
+| Azure CI (Windows)                       | Azure CI (Linux)                               | Azure                               | Code Coverage Status     | CodeFactor Grade         |
 |:-----------------------------------------|:-----------------------------------------------|:-----------------------------------------------|:-------------------------|:-------------------------|
 | [![windows-nightly-image][]][windows-nightly-site] | [![linux-nightly-image][]][linux-nightly-site] | [![macOS-nightly-image][]][macos-nightly-site] | [![cc-image][]][cc-site] | [![cf-image][]][cf-site] |
 
@@ -198,7 +198,7 @@ If you have any problems building, consult the developer [FAQ][].
 [cf-site]: https://www.codefactor.io/repository/github/powershell/powershell
 [cf-image]: https://www.codefactor.io/repository/github/powershell/powershell/badge
 
-## Downloading the Source Code
+# Downloading the Source Code
 
 You can just clone the repository:
 
@@ -208,21 +208,21 @@ git clone https://github.com/PowerShell/PowerShell.git
 
 See [working with the PowerShell repository](https://github.com/PowerShell/PowerShell/tree/master/docs/git) for more information.
 
-## Developing and Contributing
+# Developing and Contributing
 
 Please see the [Contribution Guide][] for how to develop and contribute.
-If you are developing .NET Core C# applications targeting PowerShell Core, [check out our FAQ][] to learn more about the PowerShell SDK NuGet package.
+If you are developing .NET Core C# applications targeting PowerShell Core, [] to learn more about the  NuGet package.
 
-Also, make sure to check out our [PowerShell-RFC repository](https://github.com/powershell/powershell-rfc) for request-for-comments (RFC) documents to submit and give comments on proposed and future designs.
+Also, make sure to check out our [PowerShell-RFC repository](https://github.com/powershell/powershell-rfc) for request-for-comments  documents to submit and give comments on proposed and future designs.
 
 [Contribution Guide]: https://github.com/PowerShell/PowerShell/blob/master/.github/CONTRIBUTING.md
 [check out our FAQ]: https://github.com/PowerShell/PowerShell/tree/master/docs/FAQ.md#where-do-i-get-the-powershell-core-sdk-package
 
-## Support
+# Support
 
-For support, see the [Support Section][].
+For support, see the [Support category][].
 
-[Support Section]: https://github.com/PowerShell/PowerShell/tree/master/.github/SUPPORT.md
+[Support Section]: https://github.com/
 
 ## Legal and Licensing
 
@@ -230,28 +230,28 @@ PowerShell is licensed under the [MIT license][].
 
 [MIT license]: https://github.com/PowerShell/PowerShell/tree/master/LICENSE.txt
 
-### Windows Docker Files and Images
+# Windows Docker Files and Images
 
 License: By requesting and using the Container OS Image for Windows containers, you acknowledge, understand, and consent to the Supplemental License Terms available on Docker Hub:
 
 - [Windows Server Core](https://hub.docker.com/r/microsoft/windowsservercore/)
 - [Nano Server](https://hub.docker.com/r/microsoft/nanoserver/)
 
-### Telemetry
+# Telemetry
 
 Please visit our [about_Telemetry](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_telemetry)
 topic to read details about telemetry gathered by PowerShell.
 
-## Governance
+# Governance
 
-The governance policy for the PowerShell project is described [here][].
+The governance policy for the  project is described [here][].
 
 [here]: https://github.com/PowerShell/PowerShell/blob/master/docs/community/governance.md
 
-## [Code of Conduct][conduct-md]
+# [Code of Conduct][conduct-md]
 
 This project has adopted the [Microsoft Open Source Code of Conduct][conduct-code].
-For more information see the [Code of Conduct FAQ][conduct-FAQ] or contact [opencode@microsoft.com][conduct-email] with any additional questions or comments.
+For more information see the [Code of Conduct FAQ][conduct-FAQ] or contact with any additional questions or comments.
 
 [conduct-code]: https://opensource.microsoft.com/codeofconduct/
 [conduct-FAQ]: https://opensource.microsoft.com/codeofconduct/faq/
